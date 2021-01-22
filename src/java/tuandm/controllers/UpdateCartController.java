@@ -41,7 +41,7 @@ public class UpdateCartController extends HttpServlet {
                 listCart.get(i).setQuantity(quantity);
             }
             request.getSession().setAttribute("listCart", listCart);
-            response.sendRedirect("cart");
+            response.sendRedirect("GetListCart");
         }
 
     }
