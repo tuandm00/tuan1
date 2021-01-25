@@ -25,7 +25,7 @@ import tuandm.dtos.UserDTO;
  *
  * @author ASUS
  */
-@WebFilter(filterName = "FilterAdmin", urlPatterns = {"/AddController","/DeleteController","/UpdateController","/admin_page.jsp","/     "})
+@WebFilter(filterName = "FilterAdmin", urlPatterns = {"/AddController","/DeleteController","/UpdateController","/admin_page.jsp"})
 public class FilterAdmin implements Filter {
     
     private static final boolean debug = true;

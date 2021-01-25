@@ -110,6 +110,6 @@
         </session-timeout>
     </session-config>
     <welcome-file-list>
-        <welcome-file>login.html</welcome-file>
+        <welcome-file>HomeController</welcome-file>
     </welcome-file-list>
 </web-app>

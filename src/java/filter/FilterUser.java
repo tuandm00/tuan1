@@ -25,7 +25,7 @@ import tuandm.dtos.UserDTO;
  *
  * @author ASUS
  */
-@WebFilter(filterName = "FilterLogin", urlPatterns = {"/*"})
+@WebFilter(filterName = "FilterLogin", urlPatterns = {"/GetListCart"})
 public class FilterUser implements Filter {
     
     private static final boolean debug = true;
